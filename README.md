@@ -1,25 +1,18 @@
-# 🎈 Blank app template
+# TCM 体质小测
 
-A simple Streamlit app template for you to modify!
+A Streamlit beta for exploring common Traditional Chinese Medicine constitution patterns through a lifestyle-education questionnaire.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## What it includes
+- 九种常见体质：平和、气虚、阳虚、阴虚、痰湿、湿热、血瘀、气郁、特禀
+- 24 道日常问题
+- 多维加权评分，而不是单题硬贴标签
+- 饮食与生活方式建议
+- 经典方剂的传统辨证背景说明
+- 明确区分健康教育与医疗诊断/自动开方
 
-### How to run it on your own machine
+## Run locally
 
-Prerequisite: install `uv` if you don't already have it.
-
+```bash
+uv sync
+uv run streamlit run streamlit_app.py
 ```
-$ curl -LsSf https://astral.sh/uv/install.sh | sh
-```
-
-1. Sync the dependencies
-
-   ```
-   $ uv sync
-   ```
-
-2. Run the app
-
-   ```
-   $ uv run streamlit run streamlit_app.py
-   ```
